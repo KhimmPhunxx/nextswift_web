@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { Outlet } from 'react-router-dom'
+import Fotter from './Fotter'
 
 function LayoutPage() {
   return (
@@ -9,8 +10,8 @@ function LayoutPage() {
             <Navbar />
         </main>
         <Outlet />
-        <footer className=' bg-black h-96 w-full'>
-
+        <footer >
+          <Fotter />
         </footer>
         
     </>
